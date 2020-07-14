@@ -1,0 +1,26 @@
+{
+  "name": "module-b",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "ljhhhhhh <13216698987@163.com>",
+  "homepage": "https://github.com/Ljhhhhhh/lerna-demo#readme",
+  "license": "ISC",
+  "main": "lib/module-b.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ljhhhhhh/lerna-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Ljhhhhhh/lerna-demo/issues"
+  }
+}

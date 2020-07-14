@@ -1,6 +1,19 @@
 {
-  "packages": [
-    "packages/*"
+  "packages": ["packages/*"],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "ignoreChanges": [
+    "**/*.md",
+    "**/samples/**",
+    "**/build/**",
+    "**/doc/**",
+    "**/es/**"
   ],
-  "version": "0.0.0"
+  "conventionalCommits": true,
+  "command": {
+    "version": {
+      "message": "chore(lerna packages): publish"
+    }
+  }
 }
